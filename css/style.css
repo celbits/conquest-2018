@@ -1,0 +1,85 @@
+.hamara_div{
+    z-index: 10000;
+    position: absolute;
+    display: block;
+}
+
+#animation{
+   transform-origin: top;
+   transform: translateY(39.3vh);
+   margin-left: 58vw;
+   z-index: 999;
+   display: block;
+   position: absolute;
+   margin-top: -44.9vh;
+   animation: 10s fall infinite cubic-bezier(0, 0, 0.9, 0.38);
+}
+
+@keyframes fall {
+    0% {
+        transform: scale(1);
+    }
+    5%{
+        transform: scale(1);
+    }
+    10% {
+        transform: translateY(39.3vh) rotate(127deg);
+    }
+    15% {
+        transform: translateY(39.3vh) rotate(127deg);
+    }
+    20% {
+        transform: translateY(39.3vh) rotate(150deg);
+    }
+    25% {
+        transform: translateY(39.3vh) rotate(150deg);
+        
+    }
+    30% {
+        transform: translateY(39.3vh) rotate(150deg);
+        
+    }
+    40% {
+        transform: translateX(21.84vw) translateY(39.3vh) rotate(150deg);
+    }
+    45% {
+        transform: translateX(27.64vw) translateY(28.8vh) rotate(150deg);
+    }
+    50% {
+        transform: translateX(29.15vw) translateY(30.45vh) rotate(150deg);
+    }
+    65% {
+        transform: translateX(31.084vw) translateY(24.79vh) rotate(150deg);
+    }
+    70% {
+        transform: translateX(32.93vw) translateY(28.8vh) rotate(150deg);
+    }
+    85% {
+        transform: translateX(36.23vw) translateY(20.7vh) rotate(150deg);
+    }
+    100% {
+        transform: translateX(38.01vw) translateY(25.6vh) rotate(150deg);
+    }
+    
+}
+
+#pathAnimation {
+margin-left: 59.5vw;
+margin-top: 75vh;
+
+}
+
+path {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 1px;
+    /* stroke-dasharray: 1000; */
+    /* stroke-dashoffset: 1000; */
+    /* animation: dash 10.5s linear forwards infinite; */
+}
+
+@keyframes dash {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
