@@ -13,13 +13,13 @@ function ready(error, xml) {
     var path = svg.select("path#wiggle"),
         startPoint = pathStartPoint(path);
 
-    var marker = svg.append("polygon");
+    // var marker = svg.append("polygon");
 
     marker.attr("points", "0 8 15 0 26 20 0 8 0 8")
         .attr("style", "fill:#fc4f02;")
         .attr("transform", "translate(" + startPoint + ")");
     console.log(svg);
-    transition();
+    
 
 
     //Get path start point for placing marker
