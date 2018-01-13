@@ -64,16 +64,17 @@
 #pathAnimation {
 margin-left: 59.5vw;
 margin-top: 75vh;
+fill: none;
+stroke: #fff;
+stroke-width: 1px;
+stroke-dasharray: 800;
+stroke-dashoffset: 800;
+animation: dash 12s linear forwards infinite;
 
 }
 
 path {
-    fill: none;
-    stroke: #fff;
-    stroke-width: 1px;
-    stroke-dasharray: 800;
-    stroke-dashoffset: 800;
-    animation: dash 12s linear forwards infinite;
+    
 }
 
 @keyframes dash {
