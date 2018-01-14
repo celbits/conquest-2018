@@ -437,6 +437,7 @@ textarea {
     width: 94%;
     max-width: 1200px;
     margin: 0 auto;
+    z-index: 100;
 }
 
 .row:after {
