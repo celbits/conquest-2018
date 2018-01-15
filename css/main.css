@@ -2224,6 +2224,7 @@ html.no-csstransitions .home-content__main {
     line-height: 1.75;
     text-align: center;
     max-width: 1024px;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -3615,3 +3616,15 @@ footer .row {
 #appear-text {
     color: #f1f1f1f1;
 }
+
+#tryhover {
+    display: inline;
+}
+#tryhover .hover{
+    display: none;
+}
+
+
+#tryhover:hover .normal{ display: none;}
+#tryhover:hover .hover{ display: inline;}
+
