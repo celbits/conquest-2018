@@ -3393,8 +3393,8 @@ footer .row {
     padding: 0;
     outline: 0;
     border: none;
-    width: 14.5vw;
-    height: 6vh;
+    width: 100%;
+    height: 10vh;
     background: url("../images/branding-03.png") no-repeat center;
     background-size: 100% 100%;
     font: 0/0 a;
@@ -3627,4 +3627,12 @@ footer .row {
 
 #tryhover:hover .normal{ display: none;}
 #tryhover:hover .hover{ display: inline;}
+
+
+.styled {
+    display: block;
+}
+.styled:hover :after{
+    content: "Shut Up and Take My Money!";
+}
 
