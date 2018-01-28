@@ -847,8 +847,8 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus,
 input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
-    background: #33a242;
-    border-color: #33a242;
+    background: #FF641E;
+    border-color: #FF641E;
 }
 
 
@@ -3619,14 +3619,21 @@ footer .row {
 
 #tryhover {
     display: inline;
+    transition: 0s display;
 }
 #tryhover .hover{
     display: none;
 }
 
 
-#tryhover:hover .normal{ display: none;}
-#tryhover:hover .hover{ display: inline;}
+#tryhover:hover .normal {
+    display: none;
+    transition-delay: 1s;
+}
+#tryhover:hover .hover {
+    display: inline;
+    transition-delay: 2s;
+}
 
 
 .styled {

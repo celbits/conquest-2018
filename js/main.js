@@ -215,9 +215,9 @@
             infinite: true,
             slidesToShow: 6,
             slidesToScroll: 2,
-            //autoplay: true,
-            pauseOnFocus: false,
-            autoplaySpeed: 1000,
+            autoplay: true,
+            pauseOnFocus: true,
+            autoplaySpeed: 2000,
             responsive: [
                 {
                     breakpoint: 1200,
