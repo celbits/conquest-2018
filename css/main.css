@@ -1889,14 +1889,13 @@ bottom: 0.4rem;
 
 \
 .home-content__line {
-    display: block;
+    display: inline;
     width: 2px;
     height: 10.2rem;
     background-color: #FF641E;
     position: absolute;
     right: 7.2rem;
-    bottom: 0;
-    z-index: 999;
+    bottom: 0
 }
 
 
