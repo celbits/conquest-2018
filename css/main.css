@@ -2810,6 +2810,16 @@ html.no-csstransitions .home-content__main {
 .clients-testimonials .testimonials__slide {
     padding: 0 0 3rem 0;
 }
+.row{
+    padding-left:25px;
+    padding-right:25px;
+    padding-bottom: 25px;
+}
+.portfolio{
+    position: relative;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
 
 .clients-testimonials .testimonials__avatar {
     height: 16.4rem;
