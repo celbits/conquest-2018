@@ -1,0 +1,147 @@
+body {
+  font-family: avenir, helvetica, sans-serif;
+  background: #FF641E;
+  color: black;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 50px;
+  font-size: 2.4em;
+  font-weight: 200;
+  letter-spacing: .07em;
+}
+
+svg {
+  position: relative;
+  margin: auto;
+  display: block;
+  top: 0;
+  left: 0px;
+  right: 0;
+  bottom: 0px;
+  width: 50%;
+  float: left;
+}
+
+.drawings {
+	position: relative;
+}
+
+/* image animation
+.illustration {
+	position: absolute;
+    z-index: 9999;
+	top: 50%;
+	left: 50%;
+	width: 100%;
+	opacity: 1;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+    animation: colour 2s linear;
+}
+*/
+
+.highlight{
+  animation: colour 1.7s linear;
+}
+
+@media screen and (min-width:800px){
+	.registration-holder{
+		height: 150%;
+	}
+}
+.highlightreg{
+	position:relative;
+  animation: colour 1.7s linear;
+}
+
+@media screen and (max-width:800px){
+	.registration-image{
+		-webkit-transform: translateX(50%);
+		transform: translateX(50%);
+	}
+	.highlightreg{
+		display: inline-block;
+		margin-left: 100px;
+		margin-right: 100px;
+		text-align:center;
+	}
+}
+		
+@keyframes colour{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.path {
+  stroke-dashoffset: 0;
+  stroke-dasharray: 1000;
+  animation: draw 11s linear;
+}
+
+@keyframes draw {
+    0%{
+        stroke-dashoffset:1000;
+    }
+    100%{
+        stroke-dashoffset:0;
+    }
+}
+
+.path_slow {
+  stroke-dashoffset: 0;
+  stroke-dasharray: 1000;
+  animation: draw_slow 14s linear;
+}
+
+@keyframes draw_slow {
+    0%{
+        stroke-dashoffset:1000;
+    }
+    100%{
+        stroke-dashoffset:0;
+    }
+}
+
+.path_fast {
+  stroke-dashoffset: 0;
+  stroke-dasharray: 1000;
+  animation: draw_fast 7s linear;
+}
+
+@keyframes draw_fast {
+    0%{
+        stroke-dashoffset:1000;
+    }
+    100%{
+        stroke-dashoffset:0;
+    }
+}
+
+
+.path_dash {
+  stroke-dashoffset: 0;
+  stroke-dasharray: 50;
+  animation: draw_dash 6s linear;
+}
+
+@keyframes draw_dash {
+    0%{
+        stroke-dashoffset:50;
+    }
+    100%{
+        stroke-dashoffset:0;
+    }
+}
+
+.frame {
+  height: 3000px;
+}
