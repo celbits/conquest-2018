@@ -2249,13 +2249,13 @@ html.no-csstransitions .home-content__main {
 
 .stats__count {
     font-family: "montserrat-bold", sans-serif;
-    font-size: 8.4rem;
+    font-size: 8.0rem;
     line-height: 1;
     color: #FFFFFF;
     position: relative;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+    overflow: auto;
+    text-overflow: auto;
+    white-space: auto;
 }
 
 .stats h5 {
@@ -2817,6 +2817,7 @@ html.no-csstransitions .home-content__main {
 }
 .portfolio{
     position: relative;
+    margin-bottom: -0.5rem;
     padding-left: 5rem;
     padding-right: 5rem;
 }
@@ -2826,7 +2827,7 @@ html.no-csstransitions .home-content__main {
     width: 16.4rem;
     border-radius: 50%;
     border: 4px solid #ffffff;
-    margin: 0 auto 1.2rem auto;
+    margin: 0 auto auto auto;
     display: inline-block;
 }
 
