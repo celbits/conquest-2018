@@ -1,90 +1,60 @@
-body {
-  font-family: avenir, helvetica, sans-serif;
-  background: #FF641E;
-  color: black;
-}
-
-h1 {
-  text-align: center;
-  padding-bottom: 50px;
-  font-size: 2.4em;
-  font-weight: 200;
-  letter-spacing: .07em;
-}
-
 svg {
   position: relative;
-  margin: auto;
   display: block;
   top: 0;
-  left: 0px;
-  right: 0;
   bottom: 0px;
+  width: 55%;
+}
+
+/*
+.registration_content{
+    display: block;
+    position: relative;
+
+  	/*display: inline-block;
+		margin-left: 100px;
+		margin-right: 100px;
+		text-align:center;}*/
+
+#registration, #mentoring {
+   display: -webkit-inline-box;
+   padding-left: 10%;
+   padding-right: 10%;
+}
+
+.registration_content{
   width: 45%;
-  float: left;
+  text-align: center;
 }
 
 .drawings {
-	position: relative;
+  	position: relative;
 }
 
-/* image animation
-.illustration {
-	position: absolute;
-    z-index: 9999;
-	top: 50%;
-	left: 50%;
-	width: 100%;
-	opacity: 1;
-	-webkit-transform: translateX(-50%) translateY(-50%);
-	transform: translateX(-50%) translateY(-50%);
-    animation: colour 2s linear;
-}
-*/
-
-.highlight{
-  animation: colour 1.7s linear;
+.highlight_reg, .highlight_men, .highlight_net, .highlight_gf {
+    opacity: 0;
+/*  animation: colour 11s linear;*/
 }
 
-@media screen and (min-width:800px){
-	.registration-holder{
-		height: 150%;
-	}
-}
-.highlightreg{
-	position:relative;
-  animation: colour 1.7s linear;
-}
-
-@media screen and (max-width:800px){
-	.registration-image{
-		-webkit-transform: translateX(50%);
-		transform: translateX(50%);
-	}
-	.highlightreg{
-		display: inline-block;
-		margin-left: 100px;
-		margin-right: 100px;
-		text-align:center;
-	}
-}
-		
 @keyframes colour{
     0%{
         opacity: 0;
     }
-    50%{
+    15%{
         opacity: 0;
+    }
+    30%{
+        opacity: 1;
     }
     100%{
         opacity: 1;
     }
 }
 
-.path {
-  stroke-dashoffset: 0;
+.path_reg, .path_men, .path_net, .path_gf{
+  stroke-dashoffset: 1000;
   stroke-dasharray: 1000;
-  animation: draw 11s linear;
+/*  animation: draw 11s linear;*/
 }
 
 @keyframes draw {
@@ -96,10 +66,10 @@ svg {
     }
 }
 
-.path_slow {
-  stroke-dashoffset: 0;
+.path_slow_reg, .path_slow_men, .path_slow_net, .path_slow_gf {
+  stroke-dashoffset: 1000;
   stroke-dasharray: 1000;
-  animation: draw_slow 14s linear;
+/*  animation: draw_slow 14s linear;*/
 }
 
 @keyframes draw_slow {
@@ -111,10 +81,10 @@ svg {
     }
 }
 
-.path_fast {
-  stroke-dashoffset: 0;
+.path_fast_reg, .path_fast_men, .path_fast_net, .path_fast_gf {
+  stroke-dashoffset: 1000;
   stroke-dasharray: 1000;
-  animation: draw_fast 7s linear;
+/*  animation: draw_fast 7s linear;*/
 }
 
 @keyframes draw_fast {
@@ -126,22 +96,20 @@ svg {
     }
 }
 
-
-.path_dash {
+.path_dash_reg, .path_dash_men{
+  opacity: 0;
   stroke-dashoffset: 0;
   stroke-dasharray: 50;
-  animation: draw_dash 6s linear;
+/*  animation: draw_dash 6s linear;*/
 }
 
 @keyframes draw_dash {
     0%{
         stroke-dashoffset:50;
+        opacity: 1;
     }
     100%{
         stroke-dashoffset:0;
+        opacity: 1;
     }
-}
-
-.frame {
-  height: 3000px;
 }

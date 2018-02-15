@@ -327,14 +327,13 @@ hr {
 }
 
 .model_header {
-    margin-top: 5rem;
-    font-size: 3.2rem;
+    margin-top: 3rem;
+    font-size: 3.4rem;
     color: white;
 }
 
 .model_content {
     font-size: 2.2rem;
-    padding-right: 10rem;
     text-align: justify;
 }
 
@@ -1823,12 +1822,12 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content__main {
-    padding-top: 24rem;
+    padding-top: 15rem;
     position: relative;
 }
 
 .home-content__buttons {
-    padding-top: 6rem;
+    padding-top: 3rem;
     padding-right: 0rem;
     text-align: center;
     display: block;
@@ -1860,7 +1859,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 width: 99vw;
 bottom: 0.4rem;
     margin-left: -36.5rem;
-    margin-bottom: -19rem;
+    margin-bottom: -13rem;
     z-index: -19;
 }
 
@@ -1918,7 +1917,7 @@ bottom: 0.4rem;
     list-style: none;
     margin: 0;
     position: absolute;
-    top: 50%;
+    top: 55%;
     right: 5.4rem;
     -webkit-transform: translate3d(0, -50%, 0);
     -ms-transform: translate3d(0, -50%, 0);
