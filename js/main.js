@@ -215,7 +215,7 @@
             infinite: true,
             slidesToShow: 6,
             slidesToScroll: 2,
-            //autoplay: true,
+            autoplay: true,
             pauseOnFocus: false,
             autoplaySpeed: 1000,
             responsive: [
