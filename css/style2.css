@@ -16,16 +16,6 @@ svg {
   padding-right: 5%;
 }
 
-/*
-.registration_content{
-    display: block;
-    position: relative;
-
-  	/*display: inline-block;
-		margin-left: 100px;
-		margin-right: 100px;
-		text-align:center;}*/
-
 #mentoring, #grandfinale {
    display: -webkit-inline-box;
    padding-left: 10%;
@@ -37,9 +27,40 @@ svg {
    padding-left: 10%;
  }
 
+ /*
+ .registration_content{
+ display: block;
+ position: relative;
+
+ /*display: inline-block;
+ margin-left: 100px;
+ margin-right: 100px;
+ text-align:center;}*/
+
 .model_content_div{
    width: 45%;
    text-align: center;
+}
+
+@media screen and (max-width:800px){
+	.model_content_div {
+    display: inline-block;
+    text-align:center;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: auto;
+   }
+  #registration, #mentoring, #networking, #grandfinale {
+    display: block;
+    position: relative;
+    margin: auto;
+    padding: 0;
+  }
+  svg, .right_graphic {
+    width: 70%;
+    margin:auto;
+  }
 }
 
 .drawings {
