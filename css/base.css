@@ -608,6 +608,9 @@ textarea {
     .tab-full {
         width: 100%;
     }
+    [class*="col-15"] {
+        display: none;
+    }
 }
 
 
@@ -645,6 +648,9 @@ textarea {
     .mob-full {
         width: 100%;
     }
+    [class*="col-15"] {
+        display: none;
+    }
 }
 
 
@@ -672,6 +678,8 @@ textarea {
     }
     [class*="col-"]+[class*="col-"].end {
         float: none;
+    }[class*="col-15"] {
+        display: none;
     }
 }
 
@@ -928,3 +936,26 @@ textarea {
 
 
 /*# sourceMappingURL=base.css.map */
+.col-1-3 {
+    
+}
+
+.col-15 {
+    width: 10%;
+}
+
+
+.col-23 {
+    width: 90%;
+    margin-top: 5.1rem;
+}
+
+.col-24 {
+        width: 60%;
+}
+
+
+
+.col-23 {
+    width: 90%;
+}
