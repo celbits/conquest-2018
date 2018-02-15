@@ -6,6 +6,16 @@ svg {
   width: 55%;
 }
 
+.right_graphic {
+  position: relative;
+  display: block;
+  top: 0;
+  bottom: 0px;
+  width: 55%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
 /*
 .registration_content{
     display: block;
@@ -16,23 +26,28 @@ svg {
 		margin-right: 100px;
 		text-align:center;}*/
 
-#registration, #mentoring {
+#mentoring, #grandfinale {
    display: -webkit-inline-box;
    padding-left: 10%;
    padding-right: 10%;
 }
 
-.registration_content{
-  width: 45%;
-  text-align: center;
+#registration, #networking {
+   display: -webkit-inline-box;
+   padding-left: 10%;
+ }
+
+.model_content_div{
+   width: 45%;
+   text-align: center;
 }
 
 .drawings {
-  	position: relative;
+   position: relative;
 }
 
 .highlight_reg, .highlight_men, .highlight_net, .highlight_gf {
-    opacity: 0;
+   opacity: 0;
 /*  animation: colour 11s linear;*/
 }
 

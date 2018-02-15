@@ -5,7 +5,7 @@ $(document).ready(function() {
      var flag_reg = 0;
      if(flag_reg == 0)
       {
-        if($(window).scrollTop() > ($("#registration").offset().top - 120))
+        if($(window).scrollTop() > ($("#registration").offset().top - 300))
            {
             $(".path_reg").css("animation", "draw 11s linear");
             $(".path_fast_reg").css("animation", "draw_fast 8s linear");
@@ -26,7 +26,7 @@ $(document).ready(function() {
       var flag_men = 0;
       if(flag_men == 0)
       {
-        if($(window).scrollTop() > ($("#mentoring").offset().top - 120))
+        if($(window).scrollTop() > ($("#mentoring").offset().top - 300))
         {
              $(".path_men").css("animation", "draw 11s linear");
              $(".path_fast_men").css("animation", "draw_fast 8s linear");
@@ -47,7 +47,7 @@ $(document).ready(function() {
       var flag_net = 0;
       if(flag_net == 0 && flag_men == 1)
       {
-      if($(window).scrollTop() > ($("#networking").offset().top - 120))
+      if($(window).scrollTop() > ($("#networking").offset().top - 300))
         {
             $(".path_net").css("animation", "draw 11s linear");
             $(".path_fast_net").css("animation", "draw_fast 8s linear");
@@ -68,7 +68,7 @@ $(document).ready(function() {
       var flag_gf = 0;
       if(flag_gf == 0 && flag_net == 1)
        {
-        if($(window).scrollTop() > ($("#grandfinale").offset().top - 120))
+        if($(window).scrollTop() > ($("#grandfinale").offset().top - 300))
         {
             $(".path_gf").css("animation", "draw 11s linear");
             $(".path_fast_gf").css("animation", "draw_fast 8s linear");

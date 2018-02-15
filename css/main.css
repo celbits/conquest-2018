@@ -2263,7 +2263,7 @@ html.no-csstransitions .home-content__main {
     line-height: 1;
     color: #FFFFFF;
     position: relative;
-    overflow: auto;
+    /*overflow: auto;*/
     text-overflow: auto;
     white-space: auto;
 }
@@ -2380,7 +2380,6 @@ html.no-csstransitions .home-content__main {
         font-size: 7.8rem;
     }
 }
-
 
 
 /* ===================================================================
