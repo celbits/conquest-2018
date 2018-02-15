@@ -75,11 +75,11 @@ html, body {
 
 body {
     background: #111111;
-    font-family: "lora-regular", serif;
-    font-size: 1.7rem;
+    font-family: "roboto", serif;
+    font-size: 1.8rem;
     font-style: normal;
     font-weight: normal;
-    line-height: 1.765;
+    line-height: 1.5;
     color: #757575;
     margin: 0;
     padding: 0;
@@ -326,6 +326,17 @@ hr {
     height: 0;
 }
 
+.model_header {
+    margin-top: 5rem;
+    font-size: 3.2rem;
+    color: white;
+}
+
+.model_content {
+    font-size: 2.2rem;
+    padding-right: 10rem;
+    text-align: justify;
+}
 
 /* ------------------------------------------------------------------- 
  * ## Lists
@@ -2249,7 +2260,7 @@ html.no-csstransitions .home-content__main {
 
 .stats__count {
     font-family: "montserrat-bold", sans-serif;
-    font-size: 8.4rem;
+    font-size: 8rem;
     line-height: 1;
     color: #FFFFFF;
     position: relative;
