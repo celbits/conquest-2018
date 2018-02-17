@@ -1339,7 +1339,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
     .model_header{
     padding-top:0; margin-top: 3rem; 
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
     #registration{
         display: flex;
@@ -1367,7 +1367,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
     .model_header{
     padding-top:0; margin-top: 3rem; 
-    font-size: 4rem;}
+    font-size: 3rem;}
     #registration{
         display: flex;
         flex-flow: column-reverse;
