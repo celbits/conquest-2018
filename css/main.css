@@ -1930,7 +1930,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 width: 99vw;
 bottom: 0.4rem;
     margin-left: -36.5rem;
-    margin-bottom: -13rem;
+    margin-bottom: -25rem;
     z-index: -19;
 }
 
@@ -3761,3 +3761,7 @@ display: block;
     border-style: solid;
 }
 
+#model {
+    background-color: #111;
+    padding-bottom: 0rem;
+}
