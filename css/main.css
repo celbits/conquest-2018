@@ -335,6 +335,7 @@ hr {
 .model_content {
     font-size: 2.2rem;
     text-align: center;
+    margin-top: 3rem;
 }
 
 /* -------------------------------------------------------------------
@@ -1265,7 +1266,11 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .subhead--dark {
     color: #000000;
 }
-
+.model_header{
+    padding-top:4rem; margin-top: 3rem; }
+.graphic{
+    height: 50rem;
+}
 
 /* -------------------------------------------------------------------
  * responsive:
@@ -1278,6 +1283,15 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     .display-2 {
         font-size: 4.4rem;
     }
+    .model_content {
+    font-size: 2.2rem;
+    text-align: center;
+}
+    .model_header{
+    padding-top:4rem; margin-top: 3rem;}
+    .graphic{
+        height: 50rem; !important;
+    }
 }
 
 @media only screen and (max-width: 800px) {
@@ -1286,6 +1300,24 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     }
     .display-2 {
         font-size: 4rem;
+    }
+    .model_content {
+    font-size: 1.8rem;
+    text-align: center;
+}
+    .model_header{
+    padding-top:0; margin-top: 3rem; 
+    font-size: 4rem;}
+    #registration{
+        display: flex;
+        flex-flow: column-reverse;
+    }
+    #networking{
+        display: flex;
+        flex-flow: column-reverse;
+    }
+    .graphic{
+        height: 50rem; !important;
     }
 }
 
@@ -1299,6 +1331,25 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     .subhead {
         font-size: 1.5rem;
     }
+    .model_content {
+    font-size: 1.8rem;
+    text-align: center;
+}
+    .model_header{
+    padding-top:0; margin-top: 3rem; 
+        font-size: 4rem;
+    }
+    #registration{
+        display: flex;
+        flex-flow: column-reverse;
+    }
+    #networking{
+        display: flex;
+        flex-flow: column-reverse;
+    }
+    .graphic{
+        height: 35rem; !important;
+    }
 }
 
 @media only screen and (max-width: 400px) {
@@ -1307,6 +1358,24 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     }
     .display-2 {
         font-size: 3rem;
+    }
+    .model_content {
+    font-size: 1.8rem;
+    text-align: center;
+}
+    .model_header{
+    padding-top:0; margin-top: 3rem; 
+    font-size: 4rem;}
+    #registration{
+        display: flex;
+        flex-flow: column-reverse;
+    }
+    #networking{
+        display: flex;
+        flex-flow: column-reverse;
+    }
+    .graphic{
+        height: 25rem; !important;
     }
 }
 
@@ -3684,3 +3753,4 @@ display: block;
     border-color: #FF641E;
     border-style: solid;
 }
+
