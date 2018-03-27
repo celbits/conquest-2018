@@ -12,8 +12,6 @@ svg {
   top: 0;
   bottom: 0px;
   width: 55%;
-  padding-left: 5%;
-  padding-right: 5%;
 }
 
 #mentoring, #grandfinale {
@@ -60,7 +58,12 @@ svg {
   svg, .right_graphic {
     width: 70%;
     margin:auto;
+      padding: 0;
   }
+    .model_content {
+          font-size: 1.8rem; !important;
+        color: white;
+    }
 }
 
 .drawings {

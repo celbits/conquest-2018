@@ -1,0 +1,218 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+ 
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Conquest</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- <link rel="stylesheet" href="css/style.css"> --> <!--css of moving quill -->
+    <link rel="stylesheet" href="css/popup_style.css">
+    <link rel="stylesheet" href="css/regtest.css">
+
+    <!-- script
+    ================================================== -->
+     <script src="js/jquery-3.3.1.min.js" ></script>
+     <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+    <script src="js/popup.js"></script>
+    <script src="https://wzrd.in/standalone/formdata-polyfill"></script>
+    <script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
+    <script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>
+    <script src="js/regform.js"></script>
+<!--    <script src="js/regform.js"></script>-->
+
+    
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+<header class="s-header">
+
+        <nav class="header-nav">
+
+            <a href="" class="header-nav__close" title="close">
+                <span>Close</span>
+            </a>
+
+            <div class="header-nav__content">
+                <h3>Navigation</h3>
+
+                <ul class="header-nav__list">
+                    <li class="current">
+                        <a class="" href="./index.html" title="home">Home</a>
+                    </li>
+                    <li>
+                        <a class="smoothscroll" href="./index.html#about" title="about">About</a>
+                    </li>
+                    <li>
+                        <a class="" href="./mentors.html" title="mentors">Mentors</a>
+                    </li>
+                    <li>
+                        <a class="" href="./jury.html" title="jury">Jury</a>
+                    </li>
+<!--
+                    <li>
+                        <a class="smoothscroll" href="#services" title="services">Services</a>
+                    </li>
+                    <li>
+                        <a class="smoothscroll" href="#works" title="works">Works</a>
+                    </li>
+                    <li>
+-->                 <li>
+                        <a class="smoothscroll" href="./index.html#clients" title="clients">Past Sponsors</a>
+                    </li>
+                    <li>
+                        <a class="" href="./cap.html" title="">CAP</a>
+                    </li>
+                    <li>
+                        <a class="smoothscroll" href="./index.html#contact" title="contact">Contact Us</a>
+                    </li>
+                </ul>
+
+                  <p>To create an environment of co-learning, we provide a six-week long mentorship program in Bangalore for the top 10 startups followed by the Grand Finale which serves as a one in a lifetime opportunity to secure funding. </p>
+
+                <ul class="header-nav__social">
+                    <li>
+                            <a href="https://www.facebook.com/ConquestBITS/" target="_blank">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/ConquestBITS">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        </li>
+<!--
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                        </li>
+-->                       <li>
+                            <a href="https://medium.com/conquest" >
+                                <i class="fa fa-medium" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/company/2906632/">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-behance" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/channel/UCt4foktbytTA9-9ZgPfGFOA">
+                                <i class="fa fa-youtube" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                </ul>
+
+            </div>
+            <!-- end header-nav__content -->
+
+        </nav>
+        <!-- end header-nav -->
+
+        <a class="header-menu-toggle" href="#0">
+            <span class="header-menu-text">Menu</span>
+            <span class="header-menu-icon"></span>
+        </a>
+
+    </header>
+
+<div class="cd contactus" role="alert">
+    <form name="contactform" id="contactform" class="contact-form">
+        <div class="cd-popup-container" style="">
+            <p style="color: #ffffff;font-size: 3.5rem;font-weight:  bold;">
+                Register for Conquest
+            </p>
+
+            <div class="name">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" />
+            </div>
+            <div class="email">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" />
+            </div>
+            <div class="startup">
+                <label for="startup">Startup</label>
+                <input type="text" id="startup" name="startup" />
+            </div>
+            <div class="pnumber">
+                <label for="pnumber">Phone Number</label>
+                <input type="number" id="pnumber" name="pnumber" />
+            </div>
+
+            <br>
+
+            <br>
+            <div class="submitreg">
+                <input type="submit" name="submit" id="submit" value="Submit" style="margin-bottom: 0rem; background-color: #ff641e; border-radius: 1rem; width:100%;" />
+            </div>
+        </div>
+    </form>
+</div>
+
+<div class="cd-popup notification" role="alert">
+    <div class="cd-popup-container">
+        <a href="" class="cd-popup-close cd-close-button">
+            <i class="fa fa-times" style="pointer-events:none;"></i>
+        </a>
+        <p>
+            <h3 id="notification-text">Thanks for getting in touch!</h3>
+        </p>
+    </div>
+</div>
+  
+  <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+    <script type="text/javascript">require(["mojo/signup-forms/Loader"], function (L) { L.start({ "baseUrl": "mc.us17.list-manage.com", "uuid": "50b37421e148286535ad8f99c", "lid": "41ce638973" }) })</script>
+    <script type="text/javascript">
+    (function () {
+      var s = document.createElement('script');
+      s.type = 'text/javascript';
+      s.async = true;
+      s.src = 'https://d25z1h7fcwlg61.cloudfront.net/airim.js';
+      var x = document.getElementsByTagName('script')[0];
+      x.parentNode.insertBefore(s, x);
+    })();
+  </script>
+    <!-- <script src="js/pathFollow.js"></script> -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113039414-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-113039414-1');
+</script>
+</body>
+</html>
