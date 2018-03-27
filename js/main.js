@@ -214,7 +214,7 @@
             dots: true,
             infinite: true,
             slidesToShow: 6,
-            slidesToScroll: 2,
+            slidesToScroll: 3,
             autoplay: true,
             pauseOnFocus: true,
             autoplaySpeed: 2000,
