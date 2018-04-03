@@ -1444,7 +1444,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 @media only screen and (max-width: 800px) {
     .s-clients {
-        padding-bottom: 0.4rem;
+        padding-bottom: 17.4rem;
     }
     .section-header.has-bottom-sep::before {
         width: 400px;
@@ -1836,7 +1836,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     width: 100%;
     height: 80%;
     min-height: 700px;
-    background-image: url(/images/background.jpg);
+    background-color: #171717;
     position: relative;
     display: table;
 }
@@ -1865,7 +1865,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .no-js .s-home {
-    background-image: url(/images/background.jpg);
+    background: #000000;
 }
 
 
@@ -2842,7 +2842,7 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 .s-clients {
     padding-top: 16.2rem;
-    padding-bottom: 14.8rem;
+    padding-bottom: 16.8rem;
     background-color: #ffffff;
     position: relative;
 }
@@ -2860,8 +2860,8 @@ html.no-csstransitions .home-content__main {
 
 .clients__slide {
     display: block;
-    opacity: 1;
-    padding: 1.5rem 1.8rem;
+    opacity: .55;
+    padding: 1.5rem 2.8rem;
     -webkit-transition: opacity 0.5s ease-in-out;
     transition: opacity 0.5s ease-in-out;
 }
@@ -2891,7 +2891,6 @@ html.no-csstransitions .home-content__main {
     position: absolute;
     top: 0;
     left: 50%;
-    margin-top: 4rem;
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
@@ -3030,7 +3029,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 600px) {
     .s-clients {
-        padding-top: 4.8rem;
+        padding-top: 12rem;
     }
     .clients-testimonials::before {
         width: 250px;
