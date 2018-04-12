@@ -3769,3 +3769,59 @@ display: block;
     background-color: #111;
     padding-bottom: 0rem;
 }
+.logo {
+    width: 30rem; 
+    height: 30rem; 
+    margin-right: 3rem; 
+    margin-left: 10rem; 
+    display: block;
+}
+@media only screen and (max-width: 1200px) {
+ .logo {
+    width: 30rem; 
+    height: 30rem; 
+    margin-right: 3rem; 
+    margin-left: 10rem; 
+    display: block;
+}   
+}
+
+@media only screen and (max-width: 1000px) {
+ .logo {
+    width: 30rem; 
+    height: 30rem; 
+    margin-right: 3rem; 
+    margin-left: 10rem; 
+    display: block;
+    }}
+
+@media only screen and (max-width: 800px) {
+ .logo {
+    width: 30rem; 
+    height: 30rem; 
+    margin-right: 3rem; 
+    margin-left: 10rem; 
+    display: block;
+    }  
+}
+
+@media only screen and (max-width: 600px) {
+ .logo {
+    width: 30rem; 
+    height: 30rem; 
+    margin-right: 3rem; 
+    margin-left: 10rem; 
+    display: block;
+    }  
+}
+
+@media only screen and (max-width: 400px) {
+ .logo {
+    width: 30rem; 
+    height: 30rem; 
+    margin-right: 3rem; 
+    margin-left: 10rem; 
+    display: block;
+    } 
+}
+
